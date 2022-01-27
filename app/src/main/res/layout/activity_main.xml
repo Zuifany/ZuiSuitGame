@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:text="GUNTING BATU KERTAS"
+    android:textSize="30sp"
+    android:fontFamily="@font/fontadelia"
+    android:textColor="@color/pink"
+    android:id="@+id/launcher"
+    android:layout_marginTop="50dp"
+    android:gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+</TextView>
+<ImageView
+    android:src="@drawable/gamelauncher"
+    android:layout_marginTop="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp"/>
+    <Button
+        android:text="MULAI"
+        android:id="@+id/buttonmulai"
+        android:fontFamily="@font/fontadelia"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
